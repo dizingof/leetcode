@@ -8,6 +8,9 @@ obj/
 *.user
 *.userosscache
 *.sln.docstates
+.suo
+.vsidx
+*.vsidx
 
 # ReSharper
 _ReSharper*/
