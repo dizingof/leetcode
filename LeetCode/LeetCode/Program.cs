@@ -1,5 +1,12 @@
 ﻿using LeetCode;
 
-var solution = new MaxSubstringWithoutRepeats();
+//var solution = new MaxSubstringWithoutRepeats();
 
-Console.WriteLine(solution.LengthOfLongestSubstring("pwwkew"));
+//Console.WriteLine(solution.LengthOfLongestSubstring("pwwkew"));
+string[] strs = { "flower", "flow", "flight" };
+var longestCommonPrefix = new LongestCommonPrefix();
+var result = longestCommonPrefix.LongestCommonPrefixMethod(strs);
+foreach (var VARIABLE in result)
+{
+    Console.WriteLine(VARIABLE);
+}
