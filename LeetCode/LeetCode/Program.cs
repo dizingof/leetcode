@@ -7,13 +7,18 @@
 
 //////////////////////////////////////////////////////////////////////////
 
+
+//string[] strs = { "flower", "flow", "flight" };
+//var longestCommonPrefix = new LongestCommonPrefix();
+//var result = longestCommonPrefix.LongestCommonPrefixMethod(strs);
+//foreach (var VARIABLE in result)
+//{
+//    Console.WriteLine(VARIABLE);
+//}
+
+
 using LeetCode;
 
-string[] strs = { "flower", "flow", "flight" };
-var longestCommonPrefix = new LongestCommonPrefix();
-var result = longestCommonPrefix.LongestCommonPrefixMethod(strs);
-foreach (var VARIABLE in result)
-{
-    Console.WriteLine(VARIABLE);
-}
-
+var firstOccurrenceInString = new FirstOccurrenceInString();
+var index = firstOccurrenceInString.StrStr("leetcode", "leeto");
+Console.WriteLine(index);
