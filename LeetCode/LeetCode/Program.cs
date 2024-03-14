@@ -16,9 +16,17 @@
 //    Console.WriteLine(VARIABLE);
 //}
 
+//////////////////////////////////////////////////////////////////////////
+//var firstOccurrenceInString = new FirstOccurrenceInString();
+//var index = firstOccurrenceInString.StrStr("leetcode", "leeto");
+//Console.WriteLine(index);
+
+//////////////////////////////////////////////////////////////////////////
 
 using LeetCode;
 
-var firstOccurrenceInString = new FirstOccurrenceInString();
-var index = firstOccurrenceInString.StrStr("leetcode", "leeto");
-Console.WriteLine(index);
+
+var s = "   fly me   to   the moon  ";
+var lengthOfLastWord = new LengthOfLastWord();
+var length = lengthOfLastWord.LengthOfLastWordMethod(s);
+Console.WriteLine(length);
